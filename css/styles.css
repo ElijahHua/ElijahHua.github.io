@@ -1,49 +1,63 @@
-body {
+* {
     margin: 0;
-    font-family: Arial, sans-serif;
-    color: #333;
-    line-height: 1.6;
+    padding: 0;
+    box-sizing: border-box;
 }
-.container {
-    margin: 20px auto;
-    background: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-h1, h2, h3 {
-    color: #555;
+
+left {
+    width: 70%;
 }
-a {
-    color: #0066cc;
-    text-decoration: none;
+
+right {
+    width: 30%;
 }
-a:hover {
-    text-decoration: underline;
-}
-.section {
+
+edu{
     margin-bottom: 20px;
 }
-.skills ul, .publications ul {
+
+
+h1,
+h2 {
+    color: #000;
+    margin-top: 10;
+}
+
+h3 {
+    color: #000;
+}
+
+p,
+li {
+    color: #444;
+}
+
+ul {
     padding-left: 20px;
 }
 
-.profile {
-    text-align: center;
+.section {
     margin-bottom: 20px;
 }
-.profile-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px; /* Space between the image and the text */
-}
+
 .profile-pic {
-    width: 150px; /* Adjust size as needed */
-    height: 150px;
-    border-radius: 50%; /* Make it circular */
-    object-fit: cover; /* Ensure it fits perfectly in a circle */
-    border: 2px solid #333; /* Optional border for styling */
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
 }
-.profile-details {
-    max-width: 400px; /* Optional: Limit the width of the text block */
+
+hr {
+    padding: 0;
+}
+
+.head{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
